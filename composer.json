@@ -1,6 +1,6 @@
 {
     "name": "igorsiqueira/laravel-gpt",
-    "description": "Pacote Laravel para integração com as APIs do ChatGPT",
+    "description": "Um pacote para integrar seu projeto laravel ao OpenIa com objetivo de gerar classes mais robustas",
     "type": "library",
     "license": "MIT",
     "authors": [
