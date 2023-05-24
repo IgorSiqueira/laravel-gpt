@@ -19,6 +19,7 @@ class ApiClient implements ChatClientInterface
         $this->apiKey = $apiKey;
         $this->apiEndpoint = $apiEndpoint;
         $this->httpClient = $httpClient;
+         var_dump($this->apiEndpoint,$this->apiKey);
     }
 
     public function generateText(string $prompt): string
