@@ -1,0 +1,18 @@
+version: '3'
+services:
+  laravel-gpt-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
+    command: ["tail", "-f", "/dev/null"]
+    depends_on:
+      - composer
+
+  composer:
+    image: composer:2
+    volumes:
+      - .:/app
