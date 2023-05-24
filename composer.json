@@ -24,5 +24,12 @@
             "IgorSiqueira\\LaravelGPT\\": "src/",
             "IgorSiqueira\\LaravelGPT\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IgorSiqueira\\LaravelGPT\\Providers\\LaravelGPTServiceProvider"
+            ]
+        }
     }
 }
