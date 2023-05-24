@@ -1,6 +1,7 @@
 {
     "name": "igorsiqueira/laravel-gpt",
     "version": "1.0.0",
+    "minimum-stability": "dev",
     "description": "Um pacote para integrar seu projeto Laravel ao OpenIa com objetivo de gerar classes mais robustas",
     "type": "library",
     "license": "MIT",
