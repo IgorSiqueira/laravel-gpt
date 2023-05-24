@@ -21,8 +21,14 @@ Para utilizar basta executar o seguintes passos.
 
 ```shell
 cd laravel-gpt
+```
+```shell
 docker compose build
+```
+```shell
 docker compose up -d
+```
+```shell
 docker-compose exec laravel-gpt-app bash
 ```
 
@@ -32,4 +38,6 @@ Certifique-se de ter o Composer instalado no seu ambiente de desenvolvimento. Ca
 
 Após instalar o Composer, você pode adicionar o pacote "laravel-chatgpt" ao seu projeto Laravel executando o seguinte comando:
 
-```shell composer require igorsiqueira/laravel-gpt
+```shell 
+composer require igorsiqueira/laravel-gpt
+```
