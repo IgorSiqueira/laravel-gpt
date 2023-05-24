@@ -12,6 +12,20 @@ O pacote "laravel-gpt" é projetado para simplificar a geração de classes no L
 
 - **Personalização**: O pacote "Integração do Laravel com ChatGPT" também oferece recursos para personalizar as interações com o ChatGPT e ajustar o estilo e formato das classes geradas. Isso permite adaptar as classes geradas de acordo com as necessidades específicas do seu projeto Laravel.
 
+
+## Execução de testes isolados
+
+Para um melhor desenvolvimento esse pacote possui um Dockerfile que vai criar um container para execução de testes sem depender  da instalação do mesmo em algum projeto Laravel.
+
+Para utilizar basta executar o seguintes passos.
+
+```shell
+cd laravel-gpt
+docker compose build
+docker compose up -d
+docker-compose exec laravel-gpt-app bash
+
+
 ## Instalação
 
 Certifique-se de ter o Composer instalado no seu ambiente de desenvolvimento. Caso precise instalá-lo, siga as instruções em [getcomposer.org](https://getcomposer.org/).
