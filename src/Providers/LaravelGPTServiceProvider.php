@@ -2,8 +2,9 @@
 
 namespace IgorSiqueira\LaravelGPT\Providers;
 
+use IgorSiqueira\LaravelGPT\Commands\LaravelGPTCommand;
 use Illuminate\Support\ServiceProvider;
-use SeuPacote\Console\Commands\LaravelGPTCommand;
+
 
 class LaravelGPTServiceProvider extends ServiceProvider
 {
