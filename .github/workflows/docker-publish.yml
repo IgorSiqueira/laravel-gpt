@@ -27,5 +27,10 @@ jobs:
       - name: Generate test.env file
         run: echo "OPENIA_KEY=${{ secrets.API_KEY }}" >> test.env && echo "OPENIA_URL=${{ secrets.API_ENDPOINT }}" >> test.env
 
+      - name: Delay
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '10s'
+
       - name: Run tests
         run: vendor/bin/phpunit
