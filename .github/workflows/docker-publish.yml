@@ -25,7 +25,7 @@ jobs:
         run: composer install
 
       - name: Generate test.env file
-        run: echo "OPENIA_KEY=${{ secrets.OPENIA_KEY }}" >> test.env && echo "OPENIA_URL=${{ secrets.OPENIA_URL }}" >> test.env
+        run: echo "OPENIA_KEY=${{ secrets.API_KEY }}" >> test.env && echo "OPENIA_URL=${{ secrets.API_ENDPOINT }}" >> test.env
 
       - name: Run tests
         run: vendor/bin/phpunit
