@@ -21,9 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "IgorSiqueira\\LaravelGPT\\": "src/"
-        },
-        "psr-4-dev": {
+            "IgorSiqueira\\LaravelGPT\\": "src/",
             "IgorSiqueira\\LaravelGPT\\Tests\\": "tests/"
         }
     }
